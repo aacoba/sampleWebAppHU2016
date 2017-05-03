@@ -1,1 +1,1 @@
-Example application for Workshop HU 2016
+Example application for Workshop HU 2017
