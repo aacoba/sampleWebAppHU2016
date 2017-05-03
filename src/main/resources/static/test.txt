@@ -1,1 +1,3 @@
 Example application for Workshop HU 2016
+
+Dit is de feature van Rick (DELTA)

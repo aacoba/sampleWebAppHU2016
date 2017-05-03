@@ -55,7 +55,7 @@ local.properties
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/
 *.iml
 target
 out

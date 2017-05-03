@@ -22,7 +22,7 @@ public class IndexController {
     }
 
     @RequestMapping("/calculator")
-    public String calculator() { return "calculator"; }
+    public String myContribution() { return "<h1>Calculator</h1>"; }
 
     @RequestMapping("/incentro")
     public String incentro() {return "incentro"; }
