@@ -11,6 +11,11 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/dankestmemes")
+    public String dankestmemes() {
+        return "dank-af";
+    }
+  
     @RequestMapping("/hello")
     public String sayHello(){
         return "hello";
