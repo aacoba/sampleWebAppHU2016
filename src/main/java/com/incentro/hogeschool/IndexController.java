@@ -24,4 +24,6 @@ public class IndexController {
     @RequestMapping("/calculator")
     public String calculator() { return "calculator"; }
 
+    @RequestMapping("/calculator")
+    public String myContribution() { return "<h1>Done</h1>"; }
 }
