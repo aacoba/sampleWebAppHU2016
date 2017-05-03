@@ -24,4 +24,6 @@ public class IndexController {
     @RequestMapping("/calculator")
     public String calculator() { return "calculator"; }
 
+    @RequestMapping("/incentro")
+    public String incentro() {return "incentro"; }
 }
