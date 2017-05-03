@@ -13,4 +13,9 @@ public class MessageAdvice {
         return message;
     }
 
+    @ModelAttribute("dankestmemes")
+    public String dankestmemes(@Value("so dank") String message) {
+        return message;
+    }
+
 }

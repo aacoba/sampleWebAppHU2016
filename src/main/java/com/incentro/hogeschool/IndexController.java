@@ -10,7 +10,7 @@ public class IndexController {
     public String index() {
         return "index";
     }
-    
+
     @RequestMapping("/snake")
     public String snake() {
         return "snake";
@@ -26,4 +26,14 @@ public class IndexController {
 
     @RequestMapping("/incentro")
     public String incentro() {return "incentro"; }
+
+    @RequestMapping("/dankestmemes")
+    public String dankestmemes() {
+        return "dank-af";
+    }
+  
+    @RequestMapping("/hello")
+    public String sayHello(){
+        return "hello";
+    }
 }
