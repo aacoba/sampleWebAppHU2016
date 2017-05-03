@@ -15,5 +15,9 @@ public class IndexController {
     public String dankestmemes() {
         return "dank-af";
     }
-
+  
+    @RequestMapping("/hello")
+    public String sayHello(){
+        return "hello";
+    }
 }
